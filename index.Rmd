@@ -1,0 +1,54 @@
+---
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+author: "Yihui Xie"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    css: ["kunoichi", "ninjutsu", "custom.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+slide 1
+
+```{r echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "img/dados-hex.png",
+  link_url = "https://latin-r.com/pt"
+)
+```
+
+---
+
+slide 2
+
+```{r echo=FALSE}
+knitr::kable(mtcars)
+```
+---
+```{r echo=FALSE, fig.align='center', out.width="50%"}
+knitr::include_graphics("https://cienciadedatos.github.io/dados/reference/figures/dados-hex.png")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/dados-hex.png")
+```
+
+
+---
+```{r}
+knitr::include_graphics("img/dados-hex2.png")
+```
+
+---
+
+oi tudo bem 
